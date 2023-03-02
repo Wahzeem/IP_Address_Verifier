@@ -1,4 +1,4 @@
-# Import for regex
+# Import for regex module
 import re
 
 def ip_verifier(ip_address:str):
