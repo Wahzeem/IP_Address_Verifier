@@ -23,7 +23,7 @@ def ip_verifier(ip_address:str):
         #     return print('fail')
 
     # Return 'Pass' if no issues are found
-    print('Pass')
+    return print('Pass')
 
 
 
