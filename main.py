@@ -19,8 +19,8 @@ def ip_verifier(ip_address:str):
         if int(ip_int) > 255:
             return print('fail')
         # Check for any leading zeros in numbers with more than one digit and return 'fail' if found
-        if len(ip_int) > 1 and ip_int[0] == '0':
-            return print('fail')
+        # if len(ip_int) > 1 and ip_int[0] == '0':
+        #     return print('fail')
 
     # Return 'Pass' if no issues are found
     print('Pass')
